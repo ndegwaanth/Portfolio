@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education & Skills - Anthony Ndegwa</title>
+    <link rel="stylesheet" href="/static/css/education.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="{{ url_for('main.landing_page') }}" class="button">Home</a>
+        <a href="{{ url_for('main.about') }}" class="button">About</a>
+        <a href="{{ url_for('main.education') }}" class="button active">Education</a>
+        <a href="{{ url_for('main.projects') }}" class="button">Projects</a>
+    </nav>
+
+    <!-- Education Section -->
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Statistics and Information Technology</strong><br>
+                <span>The Co-operative University of Kenya, Nairobi</span><br>
+                <span>2023 - Present (56 course units completed)</span>
+            </li>
+            <li>
+                <strong>Certificate in Software Engineering</strong><br>
+                <span>African Leadership Experience (ALX), Nairobi, Kenya</span><br>
+                <span>2023 - Present</span>
+            </li>
+            <li>
+                <strong>Certificate in Digital Marketing</strong><br>
+                <span>The African Center for Women Information Communication and Technology (ACWICT)</span><br>
+                <span>2022</span>
+            </li>
+            <li>
+                <strong>Certificate in Value-Centered Leadership</strong><br>
+                <span>DePaul University</span><br>
+                <span>2022</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficient in Python, including Django and Flask frameworks</li>
+            <li>Data analysis and visualization using Pandas, Matplotlib, and Seaborn</li>
+            <li>Machine learning model development with Scikit-learn and TensorFlow</li>
+            <li>Experience with backend development and RESTful API creation</li>
+            <li>Web development with React, HTML, CSS, and JavaScript</li>
+            <li>Database management with MongoDB, MySQL, and PostgreSQL</li>
+            <li>Version control using Git and GitHub</li>
+        </ul>
+    </section>
+</body>
+</html>

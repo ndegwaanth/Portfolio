@@ -1,0 +1,88 @@
+/* Navigation Styles */
+nav {
+    background-color: #007BFF;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .button {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #0056b3;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav .button:hover {
+    background-color: #00408b;
+}
+
+nav .button.active {
+    background-color: #003366;
+}
+
+
+/* About Me Section */
+.about-me {
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* About Content */
+.about-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    border-bottom: 2px solid #007BFF;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.about-content p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* About Image */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img {
+        max-width: 70%;
+        margin-bottom: 20px;
+    }
+}

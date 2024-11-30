@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #163B4A;
+}
+
+/* Container for Layout */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Text Content Styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+/* Image Styling */
+img {
+    flex: 1;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button.about {
+    background-color: #28a745; /* Green */
+}
+
+button.education {
+    background-color: #17a2b8; /* Cyan */
+}
+
+button.projects {
+    background-color: #ffc107; /* Yellow */
+}
+
+button.next {
+    background-color: #dc3545; /* Red */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        max-width: 200px;
+    }
+
+    .button-container {
+        gap: 10px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+    }
+}
+
+
+.portfolio {
+    background-color: white;
+    background-size:auto;
+    text-align: center;
+}
+
+.first {
+    background-color: wheat;
+    
+}
+
+.career{
+    background-color: aqua;
+}

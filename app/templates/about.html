@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Anthony Ndegwa</title>
+    <link rel="stylesheet" href="/static/css/about.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="{{ url_for('main.landing_page') }}" class="button">Home</a>
+        <a href="{{ url_for('main.about') }}" class="button active">About</a>
+        <a href="{{ url_for('main.projects') }}" class="button">Projects</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section class="about-me">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm <strong>Anthony Ndegwa</strong>, a dynamic and dedicated professional with expertise in 
+                    <strong>Data Science</strong>, <strong>Machine Learning</strong>, and <strong>Backend Development</strong>.
+                    With a passion for problem-solving and a commitment to excellence, I leverage technology to deliver 
+                    innovative solutions to real-world challenges.
+                </p>
+                <p>
+                    I thrive at the intersection of data and technology, combining my statistical knowledge with programming 
+                    skills to build predictive models, analyze complex datasets, and create efficient software applications. 
+                    My focus areas include Python-based backend development, advanced data visualization, and AI-powered systems.
+                </p>
+                <p>
+                    Always eager to learn and grow, I aim to contribute to projects that make a difference while continuously 
+                    enhancing my skills in cutting-edge technologies.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="/static/images/new tony.jpg" alt="Anthony Ndegwa">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
